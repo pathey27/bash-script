@@ -1,0 +1,6 @@
+# MM HH DOM mm DOW
+# 30 20 * ** 1-5 command
+
+* * * * * /opt/bash-scripts/11_monitor.sh &> /var/log/monit_httpd.log
+
+
